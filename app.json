@@ -1,13 +1,28 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/index/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+  "subPackages": [
+    {
+      "root": "category",
+      "name": "category",
+      "pages": []
+    },
+    {
+      "root": "caret",
+      "name": "caret",
+      "pages": [
+      ]
+    },
+    {
+      "root": "profile",
+      "name": "profile",
+      "pages": []
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
