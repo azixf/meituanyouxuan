@@ -4,20 +4,25 @@
   ],
   "subPackages": [
     {
-      "root": "category",
+      "root": "packageA",
       "name": "category",
-      "pages": []
-    },
-    {
-      "root": "caret",
-      "name": "caret",
       "pages": [
+        "pages/index/index"
       ]
     },
     {
-      "root": "profile",
+      "root": "packageB",
+      "name": "caret",
+      "pages": [
+        "pages/index/index"
+      ]
+    },
+    {
+      "root": "packageC",
       "name": "profile",
-      "pages": []
+      "pages": [
+        "pages/index/index"
+      ]
     }
   ],
   "window": {
